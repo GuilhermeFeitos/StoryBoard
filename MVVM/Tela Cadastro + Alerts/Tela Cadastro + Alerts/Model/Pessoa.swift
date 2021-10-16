@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct Pessoa {
+    let nome: String
+    let telefone: String
+    let endereco: String
+    let idade: String
+}

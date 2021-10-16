@@ -6,3 +6,16 @@
 //
 
 import Foundation
+
+protocol CadastroViewModelDelegate {
+    func cadastroResultado(pessoa: Pessoa)
+}
+
+class CadastroViewModel {
+    
+    var delegate: CadastroViewModelDelegate?
+    
+    func cadastro(pessoa: Pessoa) {
+        delegate?.cadastroResultado(pessoa: pessoa)
+    }
+}

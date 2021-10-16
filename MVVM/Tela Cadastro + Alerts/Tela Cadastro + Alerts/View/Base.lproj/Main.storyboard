@@ -57,6 +57,9 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="14"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="okButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xb9-9S-reQ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -82,6 +85,13 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="HYl-IB-2Zt"/>
+                    <connections>
+                        <outlet property="addressTextField" destination="80A-iP-BS5" id="BMF-Zl-rDZ"/>
+                        <outlet property="ageTextField" destination="it6-hu-oQ5" id="eOp-Ec-h8H"/>
+                        <outlet property="nameTextField" destination="61C-XF-iQY" id="Izh-vw-Hjo"/>
+                        <outlet property="phoneTextField" destination="80A-iP-BS5" id="RX7-p8-pgT"/>
+                        <outlet property="titleLabel" destination="ta0-66-moj" id="8Bo-JD-N5b"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
