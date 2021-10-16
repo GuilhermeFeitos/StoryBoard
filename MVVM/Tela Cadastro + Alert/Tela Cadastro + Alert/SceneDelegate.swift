@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  Tela Cadastro + Alerts
+//  Tela Cadastro + Alert
 //
 //  Created by Gui Feitosa on 16/10/21.
 //

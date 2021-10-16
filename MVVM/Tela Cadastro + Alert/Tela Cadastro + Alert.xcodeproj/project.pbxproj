@@ -7,33 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D0C15448271B0BDD00DE157F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C15447271B0BDD00DE157F /* AppDelegate.swift */; };
-		D0C1544A271B0BDD00DE157F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C15449271B0BDD00DE157F /* SceneDelegate.swift */; };
-		D0C1544C271B0BDD00DE157F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C1544B271B0BDD00DE157F /* ViewController.swift */; };
-		D0C1544F271B0BDD00DE157F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C1544D271B0BDD00DE157F /* Main.storyboard */; };
-		D0C15451271B0BE000DE157F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0C15450271B0BE000DE157F /* Assets.xcassets */; };
-		D0C15454271B0BE000DE157F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C15452271B0BE000DE157F /* LaunchScreen.storyboard */; };
-		D0C1545F271B112100DE157F /* Pessoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C1545E271B112100DE157F /* Pessoa.swift */; };
-		D0C15461271B116600DE157F /* CadastroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C15460271B116600DE157F /* CadastroViewModel.swift */; };
-		D0C15463271B129100DE157F /* SegundaTelaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C15462271B129100DE157F /* SegundaTelaViewController.swift */; };
+		D0C15471271B529F00DE157F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C15470271B529F00DE157F /* AppDelegate.swift */; };
+		D0C15473271B529F00DE157F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C15472271B529F00DE157F /* SceneDelegate.swift */; };
+		D0C15475271B529F00DE157F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C15474271B529F00DE157F /* ViewController.swift */; };
+		D0C15478271B529F00DE157F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C15476271B529F00DE157F /* Main.storyboard */; };
+		D0C1547A271B52A100DE157F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0C15479271B52A100DE157F /* Assets.xcassets */; };
+		D0C1547D271B52A100DE157F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C1547B271B52A100DE157F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D0C15444271B0BDD00DE157F /* Tela Cadastro + Alerts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tela Cadastro + Alerts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0C15447271B0BDD00DE157F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D0C15449271B0BDD00DE157F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D0C1544B271B0BDD00DE157F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D0C1544E271B0BDD00DE157F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D0C15450271B0BE000DE157F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D0C15453271B0BE000DE157F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D0C15455271B0BE000DE157F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D0C1545E271B112100DE157F /* Pessoa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pessoa.swift; sourceTree = "<group>"; };
-		D0C15460271B116600DE157F /* CadastroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewModel.swift; sourceTree = "<group>"; };
-		D0C15462271B129100DE157F /* SegundaTelaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegundaTelaViewController.swift; sourceTree = "<group>"; };
+		D0C1546D271B529F00DE157F /* Tela Cadastro + Alert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tela Cadastro + Alert.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0C15470271B529F00DE157F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0C15472271B529F00DE157F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D0C15474271B529F00DE157F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0C15477271B529F00DE157F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0C15479271B52A100DE157F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0C1547C271B52A100DE157F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0C1547E271B52A100DE157F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D0C15441271B0BDD00DE157F /* Frameworks */ = {
+		D0C1546A271B529F00DE157F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,99 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D0C1543B271B0BDD00DE157F = {
+		D0C15464271B529F00DE157F = {
 			isa = PBXGroup;
 			children = (
-				D0C15446271B0BDD00DE157F /* Tela Cadastro + Alerts */,
-				D0C15445271B0BDD00DE157F /* Products */,
+				D0C1546F271B529F00DE157F /* Tela Cadastro + Alert */,
+				D0C1546E271B529F00DE157F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D0C15445271B0BDD00DE157F /* Products */ = {
+		D0C1546E271B529F00DE157F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D0C15444271B0BDD00DE157F /* Tela Cadastro + Alerts.app */,
+				D0C1546D271B529F00DE157F /* Tela Cadastro + Alert.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D0C15446271B0BDD00DE157F /* Tela Cadastro + Alerts */ = {
+		D0C1546F271B529F00DE157F /* Tela Cadastro + Alert */ = {
 			isa = PBXGroup;
 			children = (
-				D0C1545D271B0C1200DE157F /* Model */,
-				D0C1545C271B0C0B00DE157F /* View */,
-				D0C1545B271B0BFD00DE157F /* ViewModel */,
-				D0C15447271B0BDD00DE157F /* AppDelegate.swift */,
-				D0C15449271B0BDD00DE157F /* SceneDelegate.swift */,
-				D0C1544B271B0BDD00DE157F /* ViewController.swift */,
-				D0C15462271B129100DE157F /* SegundaTelaViewController.swift */,
-				D0C15450271B0BE000DE157F /* Assets.xcassets */,
-				D0C15452271B0BE000DE157F /* LaunchScreen.storyboard */,
-				D0C15455271B0BE000DE157F /* Info.plist */,
+				D0C15470271B529F00DE157F /* AppDelegate.swift */,
+				D0C15472271B529F00DE157F /* SceneDelegate.swift */,
+				D0C15474271B529F00DE157F /* ViewController.swift */,
+				D0C15476271B529F00DE157F /* Main.storyboard */,
+				D0C15479271B52A100DE157F /* Assets.xcassets */,
+				D0C1547B271B52A100DE157F /* LaunchScreen.storyboard */,
+				D0C1547E271B52A100DE157F /* Info.plist */,
 			);
-			path = "Tela Cadastro + Alerts";
-			sourceTree = "<group>";
-		};
-		D0C1545B271B0BFD00DE157F /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				D0C15460271B116600DE157F /* CadastroViewModel.swift */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		D0C1545C271B0C0B00DE157F /* View */ = {
-			isa = PBXGroup;
-			children = (
-				D0C1544D271B0BDD00DE157F /* Main.storyboard */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		D0C1545D271B0C1200DE157F /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				D0C1545E271B112100DE157F /* Pessoa.swift */,
-			);
-			path = Model;
+			path = "Tela Cadastro + Alert";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D0C15443271B0BDD00DE157F /* Tela Cadastro + Alerts */ = {
+		D0C1546C271B529F00DE157F /* Tela Cadastro + Alert */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D0C15458271B0BE000DE157F /* Build configuration list for PBXNativeTarget "Tela Cadastro + Alerts" */;
+			buildConfigurationList = D0C15481271B52A100DE157F /* Build configuration list for PBXNativeTarget "Tela Cadastro + Alert" */;
 			buildPhases = (
-				D0C15440271B0BDD00DE157F /* Sources */,
-				D0C15441271B0BDD00DE157F /* Frameworks */,
-				D0C15442271B0BDD00DE157F /* Resources */,
+				D0C15469271B529F00DE157F /* Sources */,
+				D0C1546A271B529F00DE157F /* Frameworks */,
+				D0C1546B271B529F00DE157F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Tela Cadastro + Alerts";
-			productName = "Tela Cadastro + Alerts";
-			productReference = D0C15444271B0BDD00DE157F /* Tela Cadastro + Alerts.app */;
+			name = "Tela Cadastro + Alert";
+			productName = "Tela Cadastro + Alert";
+			productReference = D0C1546D271B529F00DE157F /* Tela Cadastro + Alert.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D0C1543C271B0BDD00DE157F /* Project object */ = {
+		D0C15465271B529F00DE157F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
-					D0C15443271B0BDD00DE157F = {
+					D0C1546C271B529F00DE157F = {
 						CreatedOnToolsVersion = 13.0;
 					};
 				};
 			};
-			buildConfigurationList = D0C1543F271B0BDD00DE157F /* Build configuration list for PBXProject "Tela Cadastro + Alerts" */;
+			buildConfigurationList = D0C15468271B529F00DE157F /* Build configuration list for PBXProject "Tela Cadastro + Alert" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -143,58 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = D0C1543B271B0BDD00DE157F;
-			productRefGroup = D0C15445271B0BDD00DE157F /* Products */;
+			mainGroup = D0C15464271B529F00DE157F;
+			productRefGroup = D0C1546E271B529F00DE157F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D0C15443271B0BDD00DE157F /* Tela Cadastro + Alerts */,
+				D0C1546C271B529F00DE157F /* Tela Cadastro + Alert */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D0C15442271B0BDD00DE157F /* Resources */ = {
+		D0C1546B271B529F00DE157F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0C15454271B0BE000DE157F /* LaunchScreen.storyboard in Resources */,
-				D0C15451271B0BE000DE157F /* Assets.xcassets in Resources */,
-				D0C1544F271B0BDD00DE157F /* Main.storyboard in Resources */,
+				D0C1547D271B52A100DE157F /* LaunchScreen.storyboard in Resources */,
+				D0C1547A271B52A100DE157F /* Assets.xcassets in Resources */,
+				D0C15478271B529F00DE157F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D0C15440271B0BDD00DE157F /* Sources */ = {
+		D0C15469271B529F00DE157F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0C1544C271B0BDD00DE157F /* ViewController.swift in Sources */,
-				D0C15448271B0BDD00DE157F /* AppDelegate.swift in Sources */,
-				D0C1545F271B112100DE157F /* Pessoa.swift in Sources */,
-				D0C1544A271B0BDD00DE157F /* SceneDelegate.swift in Sources */,
-				D0C15463271B129100DE157F /* SegundaTelaViewController.swift in Sources */,
-				D0C15461271B116600DE157F /* CadastroViewModel.swift in Sources */,
+				D0C15475271B529F00DE157F /* ViewController.swift in Sources */,
+				D0C15471271B529F00DE157F /* AppDelegate.swift in Sources */,
+				D0C15473271B529F00DE157F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D0C1544D271B0BDD00DE157F /* Main.storyboard */ = {
+		D0C15476271B529F00DE157F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D0C1544E271B0BDD00DE157F /* Base */,
+				D0C15477271B529F00DE157F /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		D0C15452271B0BE000DE157F /* LaunchScreen.storyboard */ = {
+		D0C1547B271B52A100DE157F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D0C15453271B0BE000DE157F /* Base */,
+				D0C1547C271B52A100DE157F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -202,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		D0C15456271B0BE000DE157F /* Debug */ = {
+		D0C1547F271B52A100DE157F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -263,7 +227,7 @@
 			};
 			name = Debug;
 		};
-		D0C15457271B0BE000DE157F /* Release */ = {
+		D0C15480271B52A100DE157F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -318,7 +282,7 @@
 			};
 			name = Release;
 		};
-		D0C15459271B0BE000DE157F /* Debug */ = {
+		D0C15482271B52A100DE157F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -326,7 +290,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Tela Cadastro + Alerts/Info.plist";
+				INFOPLIST_FILE = "Tela Cadastro + Alert/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -337,7 +301,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "GuiFeitos.Tela-Cadastro---Alerts";
+				PRODUCT_BUNDLE_IDENTIFIER = "GuiFeitos.Tela-Cadastro---Alert";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -345,7 +309,7 @@
 			};
 			name = Debug;
 		};
-		D0C1545A271B0BE000DE157F /* Release */ = {
+		D0C15483271B52A100DE157F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -353,7 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Tela Cadastro + Alerts/Info.plist";
+				INFOPLIST_FILE = "Tela Cadastro + Alert/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -364,7 +328,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "GuiFeitos.Tela-Cadastro---Alerts";
+				PRODUCT_BUNDLE_IDENTIFIER = "GuiFeitos.Tela-Cadastro---Alert";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -375,25 +339,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D0C1543F271B0BDD00DE157F /* Build configuration list for PBXProject "Tela Cadastro + Alerts" */ = {
+		D0C15468271B529F00DE157F /* Build configuration list for PBXProject "Tela Cadastro + Alert" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D0C15456271B0BE000DE157F /* Debug */,
-				D0C15457271B0BE000DE157F /* Release */,
+				D0C1547F271B52A100DE157F /* Debug */,
+				D0C15480271B52A100DE157F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D0C15458271B0BE000DE157F /* Build configuration list for PBXNativeTarget "Tela Cadastro + Alerts" */ = {
+		D0C15481271B52A100DE157F /* Build configuration list for PBXNativeTarget "Tela Cadastro + Alert" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D0C15459271B0BE000DE157F /* Debug */,
-				D0C1545A271B0BE000DE157F /* Release */,
+				D0C15482271B52A100DE157F /* Debug */,
+				D0C15483271B52A100DE157F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D0C1543C271B0BDD00DE157F /* Project object */;
+	rootObject = D0C15465271B529F00DE157F /* Project object */;
 }
