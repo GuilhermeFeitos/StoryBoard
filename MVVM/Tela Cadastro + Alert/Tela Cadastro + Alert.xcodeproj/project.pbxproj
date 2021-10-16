@@ -56,6 +56,9 @@
 		D0C1546F271B529F00DE157F /* Tela Cadastro + Alert */ = {
 			isa = PBXGroup;
 			children = (
+				D0C15486271B542200DE157F /* Model */,
+				D0C15485271B541700DE157F /* View */,
+				D0C15484271B540F00DE157F /* ViewModel */,
 				D0C15470271B529F00DE157F /* AppDelegate.swift */,
 				D0C15472271B529F00DE157F /* SceneDelegate.swift */,
 				D0C15474271B529F00DE157F /* ViewController.swift */,
@@ -65,6 +68,27 @@
 				D0C1547E271B52A100DE157F /* Info.plist */,
 			);
 			path = "Tela Cadastro + Alert";
+			sourceTree = "<group>";
+		};
+		D0C15484271B540F00DE157F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D0C15485271B541700DE157F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D0C15486271B542200DE157F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
