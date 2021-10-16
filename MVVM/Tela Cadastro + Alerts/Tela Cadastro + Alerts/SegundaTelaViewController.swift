@@ -9,21 +9,24 @@ import UIKit
 
 class SegundaTelaViewController: UIViewController {
 
+    var pessoa: Pessoa?
+    
+    @IBOutlet weak var titleLabel: UILabel!
+    
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var phoneLabel: UILabel!
+    @IBOutlet weak var addressLabel: UILabel!
+    @IBOutlet weak var ageLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        ajusteDados()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func ajusteDados() {
+        nameLabel.text = pessoa?.nome
+        phoneLabel.text = pessoa?.telefone
+        addressLabel.text = pessoa?.endereco
+        ageLabel.text = pessoa?.idade
     }
-    */
-
 }

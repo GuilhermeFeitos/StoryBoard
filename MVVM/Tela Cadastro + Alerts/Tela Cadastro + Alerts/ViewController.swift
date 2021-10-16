@@ -19,12 +19,22 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        cadastroViewModel.delegate = self
     }
 
     @IBAction func okButton(_ sender: Any) {
         let pessoa = Pessoa(nome: nameTextField.text ?? "", telefone: phoneTextField.text ?? "", endereco: addressTextField.text ?? "", idade: ageTextField.text ?? "")
         cadastroViewModel.cadastro(pessoa: pessoa)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showDetails" {
+            if let pessoa = sender as? Pessoa {
+                if let proximaTela = segue.destination as? SegundaTelaViewController {
+                    proximaTela.pessoa = pessoa
+                }
+            }
+        }
     }
     
 }
